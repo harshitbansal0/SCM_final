@@ -14,8 +14,6 @@ photos = [PhotoImage(file="images/hang0.png"), PhotoImage(file="images/hang1.png
 PhotoImage(file="images/hang3.png"), PhotoImage(file="images/hang4.png"), PhotoImage(file="images/hang5.png"),
 PhotoImage(file="images/hang6.png"), PhotoImage(file="images/hang7.png"), PhotoImage(file="images/hang8.png"),
 PhotoImage(file="images/hang9.png"), PhotoImage(file="images/hang10.png"), PhotoImage(file="images/hang11.png")]
-
-
 def newGame():
     global the_word_withSpaces
     global numberOfGuesses
