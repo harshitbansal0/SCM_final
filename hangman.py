@@ -6,7 +6,7 @@ import random
 
 window = Tk()
 window.title('Hangman-GUESS CITIES NAME')
-word_list= ['MUMBAI','DELHI','BANGLORE','HYDRABAD','AHMEDABAD','CHENNAI','KOLKATA','SURAT','PUNE','JAIPUR','AMRITSAR','ALLAHABAD','RANCHI',
+word_list= ['MUMBAI','DELHI','BANGLORE','CHANDIGARH','HYDRABAD','AHMEDABAD','CHENNAI','KOLKATA','SURAT','PUNE','JAIPUR','AMRITSAR','ALLAHABAD','RANCHI',
             'LUCKNOW','KANPUR','NAGPUR','INDORE','THANE','BHOPAL','PATNA','GHAZIABAD','AGRA','FARIDABAD','MEERUT','RAJKOT','VARANASI','SRINAGAR',
             'RAIPUR','KOTA','JHANSI']
             
@@ -14,10 +14,6 @@ photos = [PhotoImage(file="images/hang0.png"), PhotoImage(file="images/hang1.png
 PhotoImage(file="images/hang3.png"), PhotoImage(file="images/hang4.png"), PhotoImage(file="images/hang5.png"),
 PhotoImage(file="images/hang6.png"), PhotoImage(file="images/hang7.png"), PhotoImage(file="images/hang8.png"),
 PhotoImage(file="images/hang9.png"), PhotoImage(file="images/hang10.png"), PhotoImage(file="images/hang11.png")]
-
-
-
-
 
 
 def newGame():
